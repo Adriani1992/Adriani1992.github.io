@@ -1,0 +1,50 @@
+:root{
+    --h1--:58px;
+    --h2--:42px;
+    --h3--:36px;
+    --seccolour--:#98756F;
+    --maincolour--:#F19E8E;
+
+}
+body{
+    font-family:'Syne Mono','Noto Sans TC' ;
+    margin: 0;
+    
+}
+.container-fluid{
+    margin:0;
+    padding: 0;
+}
+.introduce{
+    width: 100%;
+    background-color: #F19E8E;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--h3--);
+}
+.adrianipart{
+    height:720px;
+    /* border: 1px solid #58656D; */
+    width:100%;
+    }
+.apartbox{
+    height: 720px;
+    display: flex;
+    align-items: center;
+}
+.apartphoto{
+    width:30%;
+    height: 540px;
+    overflow: hidden;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    /* border:var(--seccolour--) 15px solid; */
+    padding: 2rem;
+}
+.apartphoto img{
+    width: 100%;
+    filter:saturate(0.5);
+}
