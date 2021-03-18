@@ -23,13 +23,13 @@ body{
     font-size: var(--h3--);
 }
 .adrianipart{
-    height:720px;
+    height:740px;
     /* border: 1px solid #58656D; */
     width:100%;
     background: url("/Download\ 60\ paper\ backgrounds.jpeg") repeat;
     }
 .apartbox{
-    height: 720px;
+    height: 740px;
     display: flex;
     align-items: center;
     /* border:1px solid #000; */
@@ -74,4 +74,16 @@ body{
 .mybtn:hover{
     background-color: var(--outline--);
     color:#fff
+}
+.portfoliotititle{
+    margin-top:36px;
+    margin-bottom:36px;
+    
+}
+.x{
+    width: 36px;
+}
+.line{
+    width: 100%;
+    border-bottom: var(--outline--) 1px solid;
 }
