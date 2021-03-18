@@ -46,6 +46,7 @@ body{
     /* border:var(--seccolour--) 15px solid; */
     padding: 2rem;
     /* margin-left: 3.5rem; */
+    border-radius: 4px;
 }
 .apartphoto img{
     width: 100%;
