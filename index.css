@@ -4,6 +4,7 @@
     --h3--:36px;
     --seccolour--:#98756F;
     --maincolour--:#F19E8E;
+    --outline--:#58656D;
 
 }
 body{
@@ -11,13 +12,10 @@ body{
     margin: 0;
     
 }
-.container-fluid{
-    margin:0;
-    padding: 0;
-}
+
 .introduce{
     width: 100%;
-    background-color: #F19E8E;
+    /* border: solid 1px var(--outline--); */
     height: 80px;
     display: flex;
     justify-content: center;
@@ -28,14 +26,18 @@ body{
     height:720px;
     /* border: 1px solid #58656D; */
     width:100%;
+    background: url("/Download\ 60\ paper\ backgrounds.jpeg") repeat;
     }
 .apartbox{
     height: 720px;
     display: flex;
     align-items: center;
+    /* border:1px solid #000; */
+    
+    justify-content: space-around;
 }
 .apartphoto{
-    width:30%;
+    width:40%;
     height: 540px;
     overflow: hidden;
     object-fit: cover;
@@ -43,8 +45,32 @@ body{
     justify-content: center;
     /* border:var(--seccolour--) 15px solid; */
     padding: 2rem;
+    /* margin-left: 3.5rem; */
 }
 .apartphoto img{
     width: 100%;
-    filter:saturate(0.5);
+    /* filter:saturate(0.5); */
+    filter:contrast(1);
+}
+.apartword{
+    width: 40%;
+    display: flex;
+
+}
+.wordbox{
+    width: 100%;
+    line-height: 2.5;
+}
+.mybtn{
+    width: 200px;
+    height: 60px;
+    line-height: 2;
+    font-size: 16px;
+    border-radius: 4px;
+    background: transparent;
+    border:var(--outline--) 1px solid
+}
+.mybtn:hover{
+    background-color: var(--outline--);
+    color:#fff
 }
