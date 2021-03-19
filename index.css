@@ -105,4 +105,40 @@ body{
 }
 .honkidescribe{
     padding-top: 2.5rem;
+    width: 65%;
+    text-align: center;
+}
+.other{
+    margin-top: 2.5rem;
+}
+
+.box{
+    width: 25%;
+    height:300px;
+    /* border: 1px solid black; */
+    margin :2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #ffe2e2;
+}
+.sbbox{
+    width: 85%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.otherimg{
+    width: 100%;
+   
+}
+.otherimg img{
+    width: 100%;
+}
+.otherword{
+    margin-top: 1.5rem;
+    text-align: center;
 }
